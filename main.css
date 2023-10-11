@@ -144,16 +144,9 @@ body
 	position:relative;
 	float:right;
 	width:211px;
-	background-color:#BEBA7D;
 	margin-top:10px;
 	margin-right:12px;
-	/*
-	padding-right:3px;
-	border-top:40px #a39E57 solid;
-	background-image:url('main/menu_texture.jpg');
-	padding-left:3px;
-	background-image:url('main/menu_texture.jpg');
-	background-repeat:repeat-y; */
+	
 }
 #mymenu div.top
 {

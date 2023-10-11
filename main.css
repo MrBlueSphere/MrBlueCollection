@@ -1,7 +1,8 @@
 .background
 {
-	<background-img: "assets/css/Marble Background.jpg"
-	Width="2000" Hight"2000">
+	background-image: url('assets/css/Marble Background.jpg');
+	Width: 2000px;
+	Hight: 2000px;
 	
 }
 .container 

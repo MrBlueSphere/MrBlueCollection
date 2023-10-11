@@ -20,9 +20,8 @@ body
 }
 #myBody
 {
-	background-color:#2E333B;
+	
 	vertical-align:top;
-	color:#2E333B;
 	background-image:url('');
 }
 #myData
@@ -34,7 +33,6 @@ body
 	width:550px;
 	top:-30px;
 	margin-left:14px;
-	background-color:#DDDDDD;
 	padding:5px;
 	padding-bottom:10px;
 	border-top:30px #f1f1f3 solid;

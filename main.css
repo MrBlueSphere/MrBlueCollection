@@ -1,17 +1,17 @@
-#body
+body
 {
-		<img src= "assets/css/Marble Background.jpg"
-		Width="2000" Hight"2000">
+	<img src= "assets/css/Marble Background.jpg"
+	Width="2000" Hight"2000">
+	
+}
+.container 
+{
 	min-hight: 100vh; 
 	max-width: 80%;
 	background-color: #3c3c3c;
 }
+header
+{
+	
+}
 
-#header
-{
-	
-}
-#spacer
-{
-	
-}

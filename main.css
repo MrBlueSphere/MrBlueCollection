@@ -12,13 +12,25 @@ body
 .grid
 {
 	display: grid;
-	grid-template-columns: 15vw 70vw 15vw;
+	grid-template-columns: 100px 1500px 100px;
 	grid-template-rows: auto, auto;
 	grid-gap: 20px;
 	height: 100vh;
 	margin: 0 auto;
 	padding: 20px;
  	border: 3px solid orange;
+}
+
+.bodycontainer
+{		
+	grid-row: 1 / span 5;
+	grid-column: 2;
+	color: white;
+	border-top: 5px solid rgba(40, 40, 40, 1);
+	border-radius: 10px;
+	background-color: rgba(60, 60, 60, 0.99);
+	padding: 20px;
+	
 }
 
 /*.containerheading
@@ -30,14 +42,5 @@ body
 	border-radius: 3px;
 }*/
 
-.bodycontainer
-{		
-	grid-row: 1 / span 5;
-	grid-column: 2;
-	color: white;
-	border-top: 5px solid rgba(40, 40, 40, 1);
-	border-radius: 10px;
-	background-color: rgba(60, 60, 60, 0.99);									
-	
-}
+
 

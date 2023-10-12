@@ -19,8 +19,8 @@
 
 .containerbody
 {
-	min-height: 90vh;
-	max-width: 80vw;
+	min-height: 1000px;
+	max-width: 1000px;
 	background-color: rgba(40, 40, 40, 0.99);
 	padding-top: 100px;
 	border-left: 3px solid rgba(20, 20, 20, 1);

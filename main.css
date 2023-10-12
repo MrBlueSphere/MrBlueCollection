@@ -2,7 +2,7 @@
 {
 	background-image: url('assets/css/Marble Background.jpg');
 	Width: 100vh;
-	Height: 2000px;
+	Height: 100vh;
 }
 
 .containerheading
@@ -17,7 +17,7 @@ border-radius: 3px;
 .bodycontainer
 { 
 	height: 100%;
-	width: 100%;
+	width: 1800px;
 	color: white;
 	border-top: 5px solid rgba(40, 40, 40, 1);
 	border-radius: 10px;

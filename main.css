@@ -4,8 +4,7 @@ body, html {
     padding: 0;
     height: 100%;
 	background-image: url('assets/css/Marble Background.jpg');
-	Width: 1000px;
-	Height: 100vh;
+	background-size: cover;
 }
 
 

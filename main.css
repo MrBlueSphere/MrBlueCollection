@@ -2,12 +2,12 @@
 {
 	background-image: url('assets/css/Marble Background.jpg');
 	Width: 100vh;
-	Hight: 2000px;
+	Height: 2000px;
 	
 }
 .container 
 {
-	min-hight: 100vh;
+	min-height: 100vh;
 	max-width: 80vw;
 	background-color: rgba(60, 60, 60);
 	margin: 0 auto;

@@ -17,11 +17,9 @@ border-radius: 3px;
 .bodycontainer
 { 
 	color: white;
-	margin-right: 10%;
- 	margin-left: 10%;
-	height: 100%;
-	width: 80%;
-	padding-top: 50px;
+	min-height: 100%;
+	max-width: 80%;
+	padding: 50px;
 	border-top: 5px solid rgba(40, 40, 40, 1);
 	border-radius: 10px;
 	background-color: rgba(60, 60, 60, 0.99);

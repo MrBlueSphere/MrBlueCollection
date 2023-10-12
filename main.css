@@ -8,20 +8,24 @@
 .containerheading
 {
 display: grid;
-height:70px;
-max-width:80%;
-text-align:center;
-border:2px solid black;
-border-radius: 3px;
+grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+grid-template-rows: auto;
+	height:70px;
+	max-width:80%;
+	text-align:center;
+	border:2px solid black;
+	border-radius: 3px;
 }
 
 .bodycontainer
 { 
 	display: grid;
-	height: 100%;
-	width: 1800px;
-	color: white;
-	border-top: 5px solid rgba(40, 40, 40, 1);
-	border-radius: 10px;
-	background-color: rgba(60, 60, 60, 0.99);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+		height: 100%;
+		width: 1800px;
+		color: white;
+		border-top: 5px solid rgba(40, 40, 40, 1);
+		border-radius: 10px;
+		background-color: rgba(60, 60, 60, 0.99);
 }

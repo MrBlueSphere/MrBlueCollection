@@ -4,14 +4,14 @@ body, html {
     padding: 0;
     height: 100%;
 }
-
- display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 20px;
-    height: 100vh; /* Set the container height to 100% of viewport height */
-    margin: 0 auto;
-    padding: 20px;
+.grid
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 20px;
+	height: 100vh;
+	margin: 0 auto;
+	padding: 20px;
 }
 .background
 {

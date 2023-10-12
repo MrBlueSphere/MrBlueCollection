@@ -4,9 +4,9 @@
 	Width: 100vh;
 	Height: 2000px;
 }
+
 .containerheading
 {
-.bordershadow {
 height:70px;
 width:80%;
 line-height:70px;
@@ -16,11 +16,10 @@ border-radius: 3px;
 box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 transition: all 200ms ease-out;
 }
+
 .bordershadow:hover {
 box-shadow: 0 0 6px rgba(35, 173, 278, 1);
 }
-}
-
 
 .bodycontainer
 { 

@@ -14,9 +14,8 @@
 {
 	margin: auto;
 	padding: 10px;
-	height: 100vh;
-	width: 80vw;
-	border-left: 3px solid rgba(20, 20, 20, 1)
+	
+	border-left: 3px solid rgba(20, 20, 20, 1);
 	border-radius: 10px;
 	background-color: rgba(60, 60, 60, 0.95);
 }

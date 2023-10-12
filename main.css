@@ -16,8 +16,6 @@ body
 	grid-template-rows: auto, auto;
 	grid-gap: 20px;
 	height: 100vh;
-	margin: 20px 100px auto;
-	padding: 20px;
 }
 
 .bodycontainer

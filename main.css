@@ -24,6 +24,7 @@ body
 .containerheading
 {
 	grid-row: 1;
+	border: 1px solid black;
 	height:70px;
 	max-width:80%;
 	text-align:center;
@@ -34,6 +35,7 @@ body
 .bodycontainer
 {		
 	grid-row: 2;
+	border: 1px solid black;
 	height: 100vh;
 	width: 80vw;
 	color: white;

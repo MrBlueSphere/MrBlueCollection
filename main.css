@@ -9,7 +9,8 @@
 {
 	min-hight: 100vh;
 	max-width: 80vw;
-	background-color: rgba(60, 60, 60, 0.98);
+	background-color: rgba(60, 60, 60, 0.1);
 	margin: 0 auto;
 	padding: 20px;
+	padding-top: 50px;
 }

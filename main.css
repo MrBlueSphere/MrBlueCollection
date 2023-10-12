@@ -9,7 +9,7 @@
 display: grid;
 	grid-template-columns: repeat(1fr, 3fr, 1fr);
 	grid-template-rows: auto;
-	border: 1px solid #000;
+	border: 4px solid pink;
 }
 .containerheading
 {

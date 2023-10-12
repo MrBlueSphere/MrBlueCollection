@@ -9,18 +9,11 @@
 
 }
 
-.bodyparent 
-{
-    position: relative;
-    height: 100vh;
-}
 
 .bodycontainer
 {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	margin: auto;
+	padding: 10px;
 	height: 100vh;
 	width: 100vw;
 	border-left: 3px solid rgba(20, 20, 20, 1)

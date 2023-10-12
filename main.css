@@ -12,7 +12,7 @@ body
 .grid
 {
 	display: grid;
-	grid-template-columns: 100px 1500px 100px;
+	grid-template-columns: 15vw 70vw 15vw;
 	grid-template-rows: auto, auto;
 	grid-gap: 20px;
 	height: 100vh;
@@ -28,7 +28,7 @@ body
 	color: white;
 	border-top: 5px solid rgba(40, 40, 40, 1);
 	border-radius: 10px;
-	background-color: rgba(60, 60, 60, 0.99);
+	background-color: rgba(60, 60, 60, 0.98);
 	padding: 20px;
 	
 }

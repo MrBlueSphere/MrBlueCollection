@@ -22,10 +22,6 @@ body, html {
 
 .containerheading
 {
-	grid-column-start: 1;
-	grid-column-end: 4;
- 	grid-row-start: 1;
- 	grid-row-end: 2;
 	height:70px;
 	max-width:80%;
 	text-align:center;
@@ -34,11 +30,7 @@ body, html {
 }
 
 .bodycontainer
-{	grid-column-start: 2;
-	grid-column-end: 3;
- 	grid-row-start: 2;
- 	grid-row-end: 3;
-		height: 100vh;
+{		height: 100vh;
 		width: 80vw;
 		color: white;
 		border-top: 5px solid rgba(40, 40, 40, 1);

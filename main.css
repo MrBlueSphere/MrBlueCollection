@@ -4,6 +4,14 @@ body, html {
     padding: 0;
     height: 100%;
 }
+
+.background
+{
+	background-image: url('assets/css/Marble Background.jpg');
+	Width: 1000px;
+	Height: 100vh;
+}
+
 .grid
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -13,12 +21,6 @@ body, html {
 	margin: 0 auto;
 	padding: 20px;
  	border: 3px solid orange
-}
-.background
-{
-	background-image: url('assets/css/Marble Background.jpg');
-	Width: 1000px;
-	Height: 100vh;
 }
 
 .containerheading

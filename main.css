@@ -25,6 +25,8 @@ box-shadow: 0 0 6px rgba(35, 173, 278, 1);
 { 
 	position: relative;
 	margin: auto;
+	height: 100vh;
+	width: 80vw;
 	padding-top: 50px;
 	border-top: 3px solid rgba(20, 20, 20, 1);
 	border-radius: 10px;

@@ -5,10 +5,10 @@
 	Height: 2000px;
 	
 }
-.container 
+.containerbody
 {
 	min-height: 100vh;
-	max-width: 80vw;
+	max-width: 90vw;
 	background-color: rgba(70, 70, 70);
 	padding-top: 50px;
 	border-radius: 10px;

@@ -8,8 +8,8 @@
 .container 
 {
 	min-hight: 100vh;
-	 background-color: rgba(60, 60, 60, 0.7);
-    max-width: 800px; /* Adjust the width of the colored area */
-    margin: 0 auto; /* Center the container horizontally */
+	 background-color: rgba(60, 60, 60, 0.9);
+    max-width: 80vh;
+    margin: 0 auto;
     padding: 20px;
 }

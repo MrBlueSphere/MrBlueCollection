@@ -25,9 +25,9 @@ box-shadow: 0 0 6px rgba(35, 173, 278, 1);
 .bodycontainer
 {
 	margin: auto;
-	padding: 10px;
+	padding-top: 50px;
 	
 	border-left: 3px solid rgba(20, 20, 20, 1);
 	border-radius: 10px;
-	background-color: rgba(60, 60, 60, 0.95);
+	background-color: rgba(60, 60, 60, 0.97);
 }

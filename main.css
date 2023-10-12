@@ -3,14 +3,11 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-}
-
-.background
-{
 	background-image: url('assets/css/Marble Background.jpg');
 	Width: 1000px;
 	Height: 100vh;
 }
+
 
 .grid
 	display: grid;

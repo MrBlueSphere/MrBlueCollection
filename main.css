@@ -1,14 +1,14 @@
 .background
 {
 	background-image: url('assets/css/Marble Background.jpg');
-	Width: 2000px;
+	Width: 100vh;
 	Hight: 2000px;
 	
 }
 .container 
 {
 	min-hight: 100vh;
-	background-color: rgba(255, 255, 255, 0.8); /* Change the color and opacity as needed */
+	 background-color: rgba(60, 60, 60, 0.7);
     max-width: 800px; /* Adjust the width of the colored area */
     margin: 0 auto; /* Center the container horizontally */
     padding: 20px;

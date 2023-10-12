@@ -15,6 +15,9 @@ border:2px solid #dd;
 border-radius: 3px;
 box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 transition: all 200ms ease-out;
+position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .bordershadow:hover {

@@ -9,30 +9,20 @@
 {
 height:70px;
 width:80%;
-line-height:70px;
 text-align:center;
 border:2px solid #dd;
 border-radius: 3px;
-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-transition: all 200ms ease-out;
-position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-}
-
-.bordershadow:hover {
-box-shadow: 0 0 6px rgba(35, 173, 278, 1);
 }
 
 .bodycontainer
 { 
-	text-color: white;
-	text-align: centered;
-	margin: auto;
+	color: white;
+	margin-right: 10%;
+ 	margin-left: 10%;
 	height: 100%;
 	width: 80%;
 	padding-top: 50px;
-	border-top: 3px solid rgba(0, 0, 0, 1);
+	border-top: 5px solid rgba(40, 40, 40, 1);
 	border-radius: 10px;
 	background-color: rgba(60, 60, 60, 0.99);
 }

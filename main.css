@@ -7,6 +7,7 @@
 
 .containerheading
 {
+display: grid;
 height:70px;
 max-width:80%;
 text-align:center;
@@ -16,6 +17,7 @@ border-radius: 3px;
 
 .bodycontainer
 { 
+	display: grid;
 	height: 100%;
 	width: 1800px;
 	color: white;

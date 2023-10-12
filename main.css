@@ -4,13 +4,7 @@
 	Width: 1000px;
 	Height: 100vh;
 }
-.grid
-{
-display: grid;
-	grid-template-columns: repeat(1fr, 3fr, 1fr);
-	grid-template-rows: auto;
-	border: 4px solid pink;
-}
+
 .containerheading
 {
 	grid-column-start: 1;
@@ -35,4 +29,11 @@ display: grid;
 		border-top: 5px solid rgba(40, 40, 40, 1);
 		border-radius: 10px;
 		background-color: rgba(60, 60, 60, 0.99);
+}
+.grid
+{
+display: grid;
+	grid-template-columns: repeat(1fr, 3fr, 1fr);
+	grid-template-rows: auto;
+	border: 4px solid pink;
 }

@@ -4,10 +4,17 @@
 	Width: 100vh;
 	Height: 2000px;
 }
-
 .containerheading
 {
 
+}
+
+.bodyparent 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .containerbody

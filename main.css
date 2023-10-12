@@ -26,7 +26,7 @@ box-shadow: 0 0 6px rgba(35, 173, 278, 1);
 
 .bodycontainer
 { 
-	text-aligned: centered;
+	text-align: centered;
 	position: relative;
 	margin: auto;
 	height: 100vh;

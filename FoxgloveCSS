@@ -1,24 +1,21 @@
 
-body
+/* body
 {
     margin: 0;
     padding: 0;
-	background-image: url('assets/Photos/Marble\ 1000.jpg');
+	background-image: url();
 	background-size: cover;
-}
-
-
-.grid
+} */
+/* .grid
 {
 	display: grid;
 	grid-template-columns: 1fr 10fr 1fr;
 	grid-template-rows: auto;
 	
-}
-
-.bodycontainer
+} */
+/* .bodycontainer
 {		
-	grid-row: 2 / span 7;
+	grid-row: 1 / span 7;
 	grid-column: 2;
 	color: white;
 	border-top: 5px solid rgba(40, 40, 40, 1);
@@ -27,14 +24,12 @@ body
 	padding: 20px;
 	margin: 20px;
 	
-}
-
-.headercontainer
+} */
+/*.headercontainer
 {
-	grid-row: 1;
-	grid-column: 1 / span 12;
+	height:70px;
+	max-width:80%;
 	text-align:center;
 	border:2px solid black;
-
-
-
+	border-radius: 3px;
+}*/

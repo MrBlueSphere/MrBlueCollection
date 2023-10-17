@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 576px) { /* Styles for XS screens */ }
+@media screen and (min-width: 577px) and (max-width: 768px) { /* Styles for SM screens */ }
+@media screen and (min-width: 769px) and (max-width: 992px) { /* Styles for MD screens */ }
+@media screen and (min-width: 993px) and (max-width: 1200px) { /* Styles for LG screens */ }
+@media screen and (min-width: 1201px) { /* Styles for XL screens */ }
+
 
 :root {
     --basecolor: rgba(60, 60, 60);
@@ -12,7 +18,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(Assets/MarbleTilesTransparent.png);
+    background-image: url(../MarbleTilesTransparent.png);
     background-size: cover;
 	background:repeat;
 }

@@ -20,8 +20,6 @@
     padding: 0;
     background-image: url(Assets/MarbleTilesTransparent.png);
     background-size: cover;
-	background:repeat;
-	z-index:999;
 }
 
 .grid {

@@ -12,7 +12,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('assets/Photos/Marble 1000.jpg');
+    background-image: url(Assets/MarbleTilesTransparent.png);
     background-size: cover;
 }
 
@@ -22,7 +22,7 @@ body {
     grid-template-rows: repeat(auto); /* Adjust as needed */
 }
 
-.bodycontainer {
+/* .bodycontainer {
     grid-row: 1 / span 7;
     grid-column: 2;
     color: white;
@@ -31,7 +31,7 @@ body {
     background: var(--basecolor);
     padding: 10px;
     margin-top: 150px;
-}
+} */
 
 header {
     font-size: 20px;
@@ -46,7 +46,7 @@ header {
 header::after {
 	content: url(Assets/nav-design.svg);
 	position: fixed;
-	top: 75px;
+	top: 68px;
     left: 50%;
     transform: translate(-50%, -50%);
 }

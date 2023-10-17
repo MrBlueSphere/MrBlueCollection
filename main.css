@@ -21,6 +21,7 @@
     background-image: url(Assets/MarbleTilesTransparent.png);
     background-size: cover;
 	background:repeat;
+	z-index:999;
 }
 
 .grid {
@@ -47,7 +48,7 @@ header {
     position: fixed;
     width: 100vw;
     background: var(--basecolor);
-    z-index: 999;
+    z-index: 998;
 }
 
 header::after {

@@ -18,7 +18,7 @@
 .body {
     margin: 0;
     padding: 0;
-    background-image: url(Assets/MarbleTilesTransparent.png);
+   					 background-image: url(Assets/MarbleTilesTransparent.png, second, third);
     background-size: cover;
 }
 
@@ -41,7 +41,7 @@
 
 header {
     font-size: 20px;
-	color: antiquewhite;
+	color: var(--basecolor);
     text-align: center;
     position: fixed;
     width: 100vw;

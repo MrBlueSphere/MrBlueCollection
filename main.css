@@ -4,55 +4,74 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 576px) { /* Styles for XS screens */ }
-@media screen and (min-width: 577px) and (max-width: 768px) { /* Styles for SM screens */ }
-@media screen and (min-width: 769px) and (max-width: 992px) { /* Styles for MD screens */ }
-@media screen and (min-width: 993px) and (max-width: 1200px) { /* Styles for LG screens */ }
-@media screen and (min-width: 1201px) { /* Styles for XL screens */ }
 
 
 :root {
     --basecolor: rgba(60, 60, 60);
-}
-
-.body {
-    margin: 0;
-    padding: 0;
-   					 background-image: url(Assets/MarbleTilesTransparent.png, second, third);
-    background-size: cover;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: repeat(auto); /* Adjust as needed */
-}
-
-.bodycontainer {
-    grid-row: 1 / span 7;
-    grid-column: 2;
-    color: white;
-    border-top: 5px solid rgba(40, 40, 40, 0.5);
-    border-radius: 10px;
-    background: var(--basecolor);
-    padding: 10px;
-    margin-top: 150px;
+    --element-borders: 1px solid crimson;
+         /* border: (var(--element-borders) */
 }
 
 header {
+    border: var(--element-borders);
     font-size: 20px;
-	color: var(--basecolor);
+	color: white;
     text-align: center;
     position: fixed;
     width: 100vw;
     background: var(--basecolor);
-    z-index: 998;
+    z-index: 999;
 }
 
 header::after {
+    border: var(--element-borders);
 	content: url(Assets/nav-design.svg);
 	position: fixed;
 	top: 68px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: repeat(auto);
+    border: var(--element-borders);
+}
+body {
+    background-color: var(--basecolor);
+}
+
+    .tiles {
+        background-image: url(Assets/Tiles.png);
+        border: var(--element-borders);
+
+  }
+    .wood {
+        
+        background-image: url(Assets/Wood.jpg);
+        border: var(--element-borders);
+
+  }
+    .marble {
+        background-image: url(Assets/Marble.jpg);
+        border: var(--element-borders);
+
+  }
+  
+
+
+
+
+/* .bodycontainer {
+    border: var(--element-borders);
+    grid-row: 1 / span 7;
+    grid-column: 2;
+    color: white;
+    border-top: 5px solid rgba(40, 40, 40);
+    border-radius: 10px;
+    background: var(--basecolor);
+    padding: 10px;
+    margin-top: 150px;
+    height: 5000px; }*/
+

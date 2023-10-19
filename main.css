@@ -20,13 +20,12 @@ header {
     position: fixed;
     width: 100vw;
     background: var(--basecolor);
-    z-index: 999;
 }
 
 header::after {
     border: var(--element-borders);
 	content: url(Assets/nav-design.svg);
-	position: fixed;
+	position: absolute;
 	top: 68px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -39,22 +38,38 @@ header::after {
     border: var(--element-borders);
 }
 body {
-    background-color: var(--basecolor);
+    position: absolute;
 }
 
     .tiles {
         background-image: url(Assets/Tiles.png);
+        background-color: var(--basecolor);
+        background-size: contain;
+        background-repeat: repeat-x;
+        max-width: 100%;
+        height: 700px;
+        margin-bottom: 500px;
         border: var(--element-borders);
 
   }
     .wood {
         
         background-image: url(Assets/Wood.jpg);
+        background-size: cover;
+        background-repeat: repeat-x;
+        height: 700px;
+        width: 100vw;
+        margin-bottom: 500px;
         border: var(--element-borders);
 
   }
     .marble {
         background-image: url(Assets/Marble.jpg);
+        background-size: contain;
+        background-repeat: repeat-x;
+        height: 700px;
+        width: 100vw;
+        margin-bottom: 500px;
         border: var(--element-borders);
 
   }

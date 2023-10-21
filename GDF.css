@@ -27,7 +27,7 @@
 
 
 .header {
-    /* border: var(--element-borders); */
+    border: var(--element-borders);
 	    color: black;
         background-color: white;
         text-align: center;
@@ -41,8 +41,9 @@
 }
         header::after {
             /* border: var(--element-borders); */
-            content: url(Assets/nav-design-white.svg);
+            content: url(Assets/navsvg.svg);
             position: absolute;
+            height: 10vh;
             top: 18vh;
             left: 50%;
             transform: translate(-50%, -50%);

@@ -29,8 +29,7 @@
     width: 100vw;
     height: 15vh;
     top: 0%;
-    transition: font-size 0.9s ease-in-out;
-    transition: height 0.0s ease-in-out;
+    transition: font-size 0.9s ease-in-out, height 0.9s ease-in-out;
     z-index: 1;
 }
 @media (max-width: 768px) {

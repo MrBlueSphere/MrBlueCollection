@@ -12,14 +12,8 @@
 :root {
     --basecolor: rgba(60, 60, 60);
     --element-borders: 1px solid crimson;
-         /* var(--element-borders) */
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 12fr;
-    grid-template-rows: repeat(1fr);
-    border: var(--element-borders);
+    --basicfontsize: 16px;
+    --headerfontsize: 30px;
 }
 
 /* ----------------------- Header Stuff ----------------------- */
@@ -97,47 +91,48 @@
 
 .infocards {
     background-color: var(--basecolor);
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     display: flex;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
     justify-content: space-between;
+    max-height: 1500;
+    
 }
 @media (max-width: 768px) {
     .infocards {
         flex-direction: column;
-        height: 1500px;
-        width: 95vw;
+        height: 1200px;
     }
 }
 
     .location {
         flex: 1;
         height: 400px;
-        width: 80%;
         margin: 10px;
         /* border: var(--element-borders); */
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
+        font-size: var(--headerfontsize);
 
 }
 
     .owner {
         flex: 1;
         height: 400px;
-        width: 80%;
         margin: 10px;
         /* border: var(--element-borders); */
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
+        font-size: var(--headerfontsize);
 
 }
 
     .focus {
         flex: 1;
         height: 400px;
-        width: 80%;
         margin: 10px;
         /* border: var(--element-borders); */
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
+        font-size: var(--headerfontsize);
 
 }
 
@@ -150,7 +145,7 @@
             max-width: 100%;
             height: 500px;
             margin-bottom: 500px;
-            margin-top: 500px;
+            margin-top: 200px;
 
 }
     

@@ -40,7 +40,7 @@
 }
 
         header::after {
-            /* border: var(--element-borders); */
+            border: 1px solid rgb(10, 185, 177);
             content: url(Assets/navsvg.svg);
             position: absolute;
             height: 10vh;
@@ -52,11 +52,12 @@
         @media (max-width: 1080px) {
             header::after {
                 top: 10vh;
+
             }
 }
 
 .logo {
-    /* border: var(--element-borders); */
+    border: 1px solid blueviolet;
     position: relative;
     z-index: 2;
     height: 4rem;
@@ -91,7 +92,7 @@
 
 .infocards {
     background-color: var(--basecolor);
-    /* border: var(--element-borders); */
+    border: var(--element-borders);
     display: flex;
     text-align: center;
     margin-top: 150px;
@@ -110,7 +111,7 @@
         flex: 1;
         height: 400px;
         margin: 10px;
-        /* border: var(--element-borders); */
+        border: var(--element-borders);
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
         font-size: var(--headerfontsize);
 
@@ -120,7 +121,7 @@
         flex: 1;
         height: 400px;
         margin: 10px;
-        /* border: var(--element-borders); */
+        border: var(--element-borders);
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
         font-size: var(--headerfontsize);
 
@@ -130,14 +131,14 @@
         flex: 1;
         height: 400px;
         margin: 10px;
-        /* border: var(--element-borders); */
+        border: var(--element-borders);
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
         font-size: var(--headerfontsize);
 
 }
 
     .tiles {
-        /* border: var(--element-borders); */
+        border: var(--element-borders);
             background-image: url(Assets/Tiles.png);
             background-size: contain;
             background-repeat: repeat-x;
@@ -150,7 +151,7 @@
 }
     
     .wood {
-        /* border: var(--element-borders); */
+        border: var(--element-borders);
             background-image: url(Assets/Wood.png);
             background-size: cover;
             background-color: var(--basecolor);
@@ -164,7 +165,7 @@
 }
 
     .marble {
-        /* border: var(--element-borders); */
+        border: var(--element-borders);
             background-image: url(Assets/Marble.png);
             background-size: cover;
             background-repeat: repeat-x;

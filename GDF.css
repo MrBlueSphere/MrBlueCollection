@@ -35,7 +35,7 @@
 }
 @media (max-width: 768px) {
         .header {
-            height: 10vh;
+            height: 8vh;
         }
 }
 
@@ -51,7 +51,7 @@
 }
         @media (max-width: 768px) {
             header::after {
-                top: 12vh;
+                top: 8vh;
             }
 }
 

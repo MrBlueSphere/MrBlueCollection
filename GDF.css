@@ -177,6 +177,7 @@
 .tilegallery {
     border: var(--element-borders);
     height: 500px;
+    position: relative;
 
 
 
@@ -185,6 +186,7 @@
 .woodgallery {
     border: var(--element-borders);
     height: 500px;
+    position: relative;
 
 
 }
@@ -210,13 +212,12 @@
 
     cursor: pointer;
     position: absolute;
-    top: 50%;
     width: auto;
-    margin-top: -22px;
+    top: 40%;
     padding: 16px;
-    color: white;
+    color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;

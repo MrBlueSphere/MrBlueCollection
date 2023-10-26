@@ -43,7 +43,7 @@
 
 @media (max-width: 400px) {
     .header {
-        height: 30px;
+        height: 40px;
     }
     .header::after{
         top: 50px;
@@ -96,7 +96,7 @@
 
 .infocards {
     background-color: var(--basecolor);
-    /* border: var(--element-borders); */
+    border: var(--element-borders);
     display: flex;
     text-align: center;
     margin-top: 150px;
@@ -104,7 +104,7 @@
     max-height: 1500;
     
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .infocards {
         flex-direction: column;
         height: 1200px;
@@ -183,8 +183,6 @@
     border: var(--element-borders);
     height: 500px;
     position: relative;
-
-
 
 }
 

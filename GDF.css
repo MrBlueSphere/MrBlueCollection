@@ -41,6 +41,15 @@
         }
 }
 
+@media (max-width: 400px) {
+    .header {
+        height: 30px;
+    }
+    .header::after{
+        top: 50px;
+    }
+}
+
         header::after {
             /* border: 1px solid rgb(10, 185, 177); */
             content: url(Assets/navsvg.svg);

@@ -25,16 +25,14 @@ window.addEventListener('scroll', function() {
 
 // ------------------------- Gallery Stuff -------------------------
 
-// Initialize slideIndex to 1 when the page loads to display the first slide.
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }

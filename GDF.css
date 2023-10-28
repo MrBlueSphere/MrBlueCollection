@@ -12,9 +12,23 @@
 :root {
     --basecolor: rgba(60, 60, 60);
     --element-borders: 1px solid crimson;
-    --basicfontsize: 16px;
+    --basicfontsize: 18px;
     --headerfontsize: 30px;
+    --accentcolor: rgba(4, 95, 99);
+
 }
+
+.vl {
+    float: right;
+    border-left: 4px solid rgb(251, 255, 0);
+    margin-left: -2px;
+    height: 600px;
+    z-index: 999;
+    position: fixed;
+    left: 50%;
+    top: 0%;
+}
+
 
 /* ----------------------- Header Stuff ----------------------- */
 
@@ -72,18 +86,51 @@
             height: 100%;
 
 }
-
 #GetDownFlooring {
     font-size: 42px;
     transition: font-size 0.9s ease-in-out;
 }
 
 .call {
-    
+    background-color: white; 
+    color: black; 
+    border: 2px solid var(--accentcolor);
+    padding: 14px 30px;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: fixed;
+    left: 30%;
+    top: 30px;
+    z-index: 2;
+
+
+}
+    .call:hover {
+        background-color: var(--accentcolor);
+        color: white;
 }
 
 .email {
+    background-color: white; 
+    color: black; 
+    border: 2px solid var(--accentcolor);
+    padding: 14px 30px;
+    text-align: center;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: fixed;
+    left: 60%;
+    top: 30px;
+    z-index: 2;
 
+
+}
+    .email:hover {
+        background-color: var(--accentcolor);
+        color: white;
 }
 
 /* ----------------------- Body Stuff ----------------------- */
@@ -95,7 +142,7 @@
 
 .infocards {
     background-color: var(--basecolor);
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     display: flex;
     text-align: center;
     margin: 3%;
@@ -115,18 +162,24 @@
         height: 300px;
         margin: 10px;
         /* border: var(--element-borders); */
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
-        font-size: var(--headerfontsize);
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.788);
+        font-size: var(--basicfontsize);
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
 
 }
 
     .owner {
         flex: 1;
         height: 300px;
-        margin: 15px;
+        margin: 10px;
         /* border: var(--element-borders); */
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
-        font-size: var(--headerfontsize);
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.788);
+        font-size: var(--basicfontsize);
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
 
 }
 
@@ -135,13 +188,16 @@
         height: 300px;
         margin: 10px;
         /* border: var(--element-borders); */
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.788);
-        font-size: var(--headerfontsize);
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.788);
+        font-size: var(--basicfontsize);
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
 
 }
 
     .tiles {
-        border: var(--element-borders);
+        /* border: var(--element-borders); */
         background-image: url(Assets/Misc/Tilesbg.png);
         position: relative;
         width: 100%;
@@ -168,7 +224,7 @@
         }
 
 .wood {
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     background-image: url(Assets/Misc/Woodbg.png);
     position: relative;
     width: 100%;
@@ -195,7 +251,7 @@
     }
 
 .marble {
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     background-image: url(Assets/Misc/Marblebg.png);
     position: relative;
     width: 100%;

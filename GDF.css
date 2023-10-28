@@ -70,7 +70,6 @@
             content: url(Assets/Misc/WhiteGeometric.svg);
             position: absolute;
             top: 90px;
-            left: 50%;
             transform: translate(-50%, -50%);
             z-index: 0;
 }
@@ -197,51 +196,57 @@
 .tiles {
         /* border: var(--element-borders); */
         background-image: url(Assets/Misc/Tilesbg.png);
-        position: relative;
-        object-fit: cover;
         height: 60rem;
         margin-bottom: 700px;
         margin-top: 200px;
-}
-    .tiles::before {
-        content: url(Assets/Misc/BeforeGeometric.svg);
-        max-width: 100%;
-        left: 50%;
-        transform: translateX(-50%);        
+        position: relative;
+    }
 
+    .tiles::before {
+        /* border: var(--element-borders); */
+        content: url(Assets/Misc/BeforeGeometric.svg);
+        position: absolute;
+        transform: translateX(-50%);
+        top: -0.6%;
+        left: 50%;
+    
     }
     .tiles::after {
+        /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
-        bottom: 0%;
-        max-width: 100%;
-        left: 50%;
+        position: absolute;
+        bottom: -0.6%;
         transform: translateX(-50%);
+        left: 50%;
     }
 
 .wood {
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     background-image: url(Assets/Misc/Woodbg.png);
     object-fit: cover;
     position: relative;
     height: 60rem;
     margin-bottom: 700px;
     bottom: 0%;
+    width: 100%;
+
     }
 
     .wood::before {
+        /* border: var(--element-borders); */
         content: url(Assets/Misc/BeforeGeometric.svg);
-        max-width: 100%;
-        left: 50%;
+        position: absolute;
         transform: translateX(-50%);
-        
-
+        left: 50%;
+        top: -0.6%;
     }
     .wood::after {
+        /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
-        bottom: 0%;
-        max-width: 100%;
-        left: 50%;
+        position: absolute;
         transform: translateX(-50%);
+        left: 50%;
+        bottom: -0.6%;
     }
 
 .marble {
@@ -251,58 +256,63 @@
     object-fit: cover;
     height: 60rem;
     margin-bottom: 700px;
-}
+    width: 100%;
+
+    }
 
     .marble::before {
+        /* border: var(--element-borders); */
         content: url(Assets/Misc/BeforeGeometric.svg);
-        max-width: 100%;
-        left: 50%;
+        position: absolute;
         transform: translateX(-50%);
-
-}
+        left: 50%;
+        top: -0.6%;
+    }
     .marble::after {
+        /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
-        bottom: 0%;
-        max-width: 100%;
-        right: 50%;
-        transform: translateX(-50%);}
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        bottom: -0.6%;
+    }
 
 /* ------------------------- Gallery Stuff ------------------------- */
 
 .tilegallery {
     border: var(--element-borders);
     position: absolute;
-    margin: auto;
+    top: 28%;
     width: 70%;
     height: 70vh;
     border-radius: 25px;
-    left: 50%;
     transform: translateX(-50%);
+    left: 50%;
 
 }
 
 .woodgallery {
     border: var(--element-borders);
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: auto;
     height: 70vh;
     border-radius: 25px;
     left: 50%;
     transform: translateX(-50%);
+    top: 28%;
 
 
 }
 
 .marblegallery {
     border: var(--element-borders);
-    position: relative;
+    position: absolute;
     width: 70%;
-    margin: auto;
     height: 70vh;
     border-radius: 25px;
     left: 50%;
     transform: translateX(-50%);
+    top: 28%;
 
 
 }

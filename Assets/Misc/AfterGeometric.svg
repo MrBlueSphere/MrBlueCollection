@@ -3,8 +3,8 @@
 
 <svg
    width="381.00153mm"
-   height="14.340661mm"
-   viewBox="0 0 381.00152 14.340662"
+   height="14.319092mm"
+   viewBox="0 0 381.00152 14.319093"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -98,11 +98,11 @@
          result="composite2"
          id="feComposite2018" /></filter></defs><g
      id="layer1"
-     transform="translate(65.64327,-172.31796)"
+     transform="translate(65.64327,-172.41116)"
      style="display:none"><path
        style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.545397;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M -67.285258,143.61612 H 276.83203 l -171.62377,9.76732 z"
        id="path2769" /></g><path
-     style="fill:#3c3c3c;fill-opacity:1;stroke:none;stroke-width:0.337163px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 190.50064,0.01343819 0,14.340662 h 381.00154"
+     style="fill:#3c3c3c;fill-opacity:1;stroke:none;stroke-width:0.337067px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 190.50064,0 0,14.319092 h 381.00154"
      id="path876" /></svg>

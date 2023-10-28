@@ -26,6 +26,22 @@
         Usage: Use them when designing complex, responsive layouts. display: flex; is well-suited for one-dimensional layouts (rows or columns), while display: grid; excels at two-dimensional layouts.
         Considerations: These modern layout methods offer more control and predictability than older techniques like float.
 
+~ Object-fit:
+    Fill: 
+        This is the default value which stretches the image to fit the content box, regardless of its aspect-ratio.
+
+    Contain:
+        Increases or decreases the size of the image to fill the box whilst preserving its aspect-ratio.
+
+    Cover:
+        The image will fill the height and width of its box, once again maintaining its aspect ratio but often cropping the image in the process.
+
+    None: 
+        Image will ignore the height and width of the parent and retain its original size.
+
+    Scale-down:
+        The image will compare the difference between none and contain in order to find the smallest concrete object size.
+
 ~ Use Margin and Padding Appropriately:
 
     Apply margins to create space *around* elements.

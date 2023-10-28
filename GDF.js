@@ -8,11 +8,16 @@
 window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
     const getDownFlooring = document.querySelector('#GetDownFlooring');
-    const logo = this.document.querySelector('.logo');
+    const logo = document.querySelector('.logo');
+    const emailbutton = document.querySelector('.email');
+    const callbutton = document.querySelector('.call');    
 
     if (window.scrollY > 200) {
         getDownFlooring.style.fontSize = '25px';
-        logo.style.height = '1.8rem';
+        logo.style.height = '2rem';
+        emailbutton.style.opacity = '1';
+        callbutton.style.opacity = '1';
+
 
 
         //if scroll opposite, reset:
@@ -20,8 +25,12 @@ window.addEventListener('scroll', function() {
         getDownFlooring.style.fontSize = '42px';
         getDownFlooring.textContent = 'Get Down Flooring, Inc.';
         logo.style.height = '4rem';
+        emailbutton.style.opacity = '0';
+        callbutton.style.opacity = '0';
+
     }
 });
+
 
 // ------------------------- Gallery Stuff -------------------------
 

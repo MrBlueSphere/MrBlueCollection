@@ -33,28 +33,46 @@ window.addEventListener('scroll', function() {
 
 
 // ------------------------- Gallery Stuff -------------------------
+document.addEventListener('DOMContentLoaded', function() {
 
 
-let slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
+const track = document.querySelector('.track');
+const slides = Array.from(track.children);
+const next = document.querySelector('.right');
+const prev = document.querySelector('.left');
+const dotsNav = document.querySelector('.nav-indicator');
+const dots = Array.from('dotsNav.children');
+const slideWidth = slides[0].getBoundingClientRect().width;
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+// auto arrange slides next to each other
+const setSlidePosition = (slide, index) => {
+    slide.style.left = slideWidth * index + 'px';
+};
+slides.forEach(setSlidePosition);
 
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("slide");
-    if (n > slides.length) { slideIndex = 1; }
-    if (n < 1) { slideIndex = slides.length; }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slides[slideIndex - 1].style.display = "block";
-}
+const moveToSlide = (track, currentSlide, targetSlide) => {
+    track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+    currentSlide.classList.remove('current-slide');
+    targetSlide.classList.add('current-slide');
+};
 
-  
+// move to prev slide
+prev.addEventListener('click', e => {
+    const currentSlide = track.querySelector('.current-slide');
+    const prevSlide = currentSlide.previousElementSibling;
+
+    moveToSlide(track, currentSlide, prevSlide);
+});
+
+// move to next slide
+next.addEventListener('click', e => {
+    const currentSlide = track.querySelector('.current-slide');
+    const nextSlide = currentSlide.nextElementSibling;
+    
+    moveToSlide(track, currentSlide, nextSlide);
+});
+
+
+
+}); // dont delete

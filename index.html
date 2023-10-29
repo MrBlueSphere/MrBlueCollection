@@ -7,11 +7,11 @@
 	<title>Home page</title>
 	<meta charset="UTF-8">
  	<link type="text/css" rel="stylesheet" href="GDF.css">
-	<script type="text/javascript" src="GDF.js"></script>
+	<script src="GDF.js"></script>
 </head>
 
 <!------------------------- Header Stuff ------------------------->
-<div class="centerline"></div>
+<!-- <div class="centerline"></div> -->
 <header class="header">
 	<h1 id="GetDownFlooring">Get Down Flooring, Inc.</h1>
 
@@ -51,68 +51,39 @@
 
 <div class="tiles">
 	<div class="tilegallery">
-		<div class="slide fade">
-			<div class="slidenum">1/10 </div>
-			<img src="Assets/Tile/1.jpg" class="pix">
+		<div class="track-container">
+			<ul class="track">
+				<li class="slide current-slide">
+					<img src="Assets/Tile/1.jpg" class="pix">
+				</li>
+				<li class="slide">
+					<img src="Assets/Tile/2.jpg" class="pix">
+				</li>
+				<li class="slide">
+					<img src="Assets/Tile/3.jpg" class="pix">
+				</li>
+			</ul>
 		</div>
-
-		<div class="slide fade">
-			<div class="slidenum">2/10 </div>
-			<img src="Assets/Tile/2.jpg" class="pix">
+		<button class="arrows left">
+			<img src="Assets/Misc/arrowleft.svg">
+		</button>
+		<button class="arrows right">
+			<img src="Assets/Misc/arrowright.svg">
+		</button>
+		<div class="nav-indicator">
+			<button class="indicator current-slide"></button>
+			<button class="indicator"></button>
+			<button class="indicator"></button>
 		</div>
-
-		<div class="slide fade">
-			<div class="slidenum">3/10 </div>
-			<img src="Assets/Tile/3.jpg" class="pix">
-		</div>
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 	</div>
 </div>	
 
-
 <div class="wood">
-	<div class="woodgallery">
-		<div class="slide fade">
-			<div class="slidenum">1/10 </div>
-			<img src="Assets/Wood/1.jpg" class="pix">
-		</div>
 
-		<div class="slide fade">
-			<div class="slidenum">2/10 </div>
-			<img src="Assets/Wood/2.jpg" class="pix">
-		</div>
-
-		<div class="slide fade">
-			<div class="slidenum">3/10 </div>
-			<img src="Assets/Wood/3.jpg" class="pix">
-		</div>
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-	</div>	
 </div>
 
 <div class="marble">
-	<div class="marblegallery">
-		<div class="slide fade">
-			<div class="slidenum">1/10 </div>
-			<img src="Assets/Stone/1.jpg" class="pix">
-		</div>
 
-		<div class="slide fade">
-			<div class="slidenum">2/10 </div>
-			<img src="Assets/Stone/2.jpg" class="pix">
-		</div>
-
-		<div class="slide fade">
-			<div class="slidenum">3/10 </div>
-			<img src="Assets/Stone/3.jpg" class="pix">
-		</div>
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-	</div>	
 </div>
 
 

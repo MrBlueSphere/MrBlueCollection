@@ -195,11 +195,12 @@
 
 .tiles {
         /* border: var(--element-borders); */
-        /* background-image: url(Assets/Misc/Tilesbg.png); */
+        background-image: url(Assets/Misc/Tilesbg.png);
         height: 60rem;
         margin-bottom: 700px;
         margin-top: 200px;
         position: relative;
+        width: 100%;
     }
 
     .tiles::before {
@@ -208,7 +209,8 @@
         position: absolute;
         transform: translateX(-50%);
         top: -0.6%;
-        left: 50%;
+        width: 100%;
+        transform: translateX(-9%);
     
     }
     .tiles::after {
@@ -217,7 +219,8 @@
         position: absolute;
         bottom: -0.6%;
         transform: translateX(-50%);
-        left: 50%;
+        width: 100%;
+        transform: translateX(-9%);
     }
 
 .wood {
@@ -237,16 +240,18 @@
         content: url(Assets/Misc/BeforeGeometric.svg);
         position: absolute;
         transform: translateX(-50%);
-        left: 50%;
         top: -0.6%;
+        width: 100%;
+        transform: translateX(-9%);
     }
     .wood::after {
         /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
         position: absolute;
         transform: translateX(-50%);
-        left: 50%;
         bottom: -0.6%;
+        width: 100%;
+        transform: translateX(-9%);
     }
 
 .marble {
@@ -265,16 +270,18 @@
         content: url(Assets/Misc/BeforeGeometric.svg);
         position: absolute;
         transform: translateX(-50%);
-        left: 50%;
         top: -0.6%;
+        width: 100%;
+        transform: translateX(-9%);
     }
     .marble::after {
         /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
         position: absolute;
-        transform: translateX(-50%);
-        left: 50%;
         bottom: -0.6%;
+        width: 100%;
+        transform: translateX(-9%);
+
     }
 
 /* ------------------------- Gallery Stuff ------------------------- */
@@ -283,8 +290,9 @@
     border: var(--element-borders);
     position: relative;
     width: 70%;
-    height: 400px;
+    height: 500px;
     margin: 0 auto;
+    top: 25%;
 
 }
 
@@ -307,15 +315,14 @@
     top: 0%;
     bottom: 0%;
     width: 100%;
-
 }
 
 .pix {
+
     border-radius: 25px;
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 
 .arrows {

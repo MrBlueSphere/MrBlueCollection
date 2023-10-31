@@ -74,5 +74,5 @@ next.addEventListener('click', e => {
 });
 
 
-
-}); // dont delete
+});
+ // dont delete

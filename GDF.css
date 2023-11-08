@@ -208,10 +208,10 @@
 
     .tiles::before {
         /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometric.svg);
+        content: url(Assets/Misc/BeforeGeometricShadow.svg);
         position: absolute;
         transform: translateX(-50%);
-        top: -0.6%;
+        top: -2.2%;
         width: 100%;
         transform: translateX(-9%);
     
@@ -240,10 +240,10 @@
 
     .wood::before {
         /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometric.svg);
+        content: url(Assets/Misc/BeforeGeometricShadow.svg);
         position: absolute;
         transform: translateX(-50%);
-        top: -0.6%;
+        top: -2.2%;
         width: 100%;
         transform: translateX(-9%);
     }
@@ -270,10 +270,10 @@
 
     .marble::before {
         /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometric.svg);
+        content: url(Assets/Misc/BeforeGeometricShadow.svg);
         position: absolute;
         transform: translateX(-50%);
-        top: -0.6%;
+        top: -2.2%;
         width: 100%;
         transform: translateX(-9%);
     }

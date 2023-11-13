@@ -7,7 +7,7 @@
 
 window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
-    const getDownFlooring = document.querySelector('#GetDownFlooring');
+    const getDownFlooring = document.querySelector('.GetDownFlooring');
     const logo = document.querySelector('.logo');
     const emailbutton = document.querySelector('.email');
     const callbutton = document.querySelector('.call');    
@@ -22,8 +22,7 @@ window.addEventListener('scroll', function() {
 
         //if scroll opposite, reset:
     } else {
-        getDownFlooring.style.fontSize = '42px';
-        getDownFlooring.textContent = 'Get Down Flooring, Inc.';
+        getDownFlooring.style.fontSize = '40px';
         logo.style.height = '4rem';
         emailbutton.style.opacity = '0';
         callbutton.style.opacity = '0';

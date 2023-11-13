@@ -18,8 +18,8 @@
 
 .centerline {
     float: right;
-    border-left: 4px solid rgb(251, 255, 0);
-    margin-left: -2px;
+    border-left: 2px solid rgb(251, 255, 0);
+    margin-left: -1px;
     height: 600px;
     z-index: 999;
     position: fixed;
@@ -40,7 +40,7 @@
     vertical-align: middle;
     position: fixed;
     width: 100%;
-    height: 65px;
+    height: 50px;
     top: 0%;
     transition: font-size 0.9s ease-in-out, height 0.9s ease-in-out;
     z-index: 1;
@@ -67,9 +67,9 @@
             /* border: 1px solid rgb(10, 185, 177); */
             content: url(Assets/Misc/WhiteGeometric.svg);
             position: absolute;
-            top: 90px;
+            top: 65px;
             transform: translate(-50%, -50%);
-            z-index: 0;
+            z-index: -1;
 }
 
 .logo {
@@ -80,8 +80,8 @@
     transition: all 0.9s ease-in-out;
 }
 
-#GetDownFlooring {
-    font-size: 42px;
+.GetDownFlooring {
+    font-size: 40px;
     transition: font-size 0.9s ease-in-out;
 }
 
@@ -197,13 +197,14 @@
 }
 
 .tiles {
-        /* border: var(--element-borders); */
+        border: var(--element-borders);
         background-image: url(Assets/Misc/Tilesbg.png);
         height: 60rem;
         margin-bottom: 700px;
         margin-top: 200px;
         position: relative;
         width: 100%;
+    
     }
 
     .tiles::before {
@@ -213,7 +214,7 @@
         transform: translateX(-50%);
         top: -2.2%;
         width: 100%;
-        transform: translateX(-9%);
+        transform: translateX(-10.5%);
     
     }
     .tiles::after {
@@ -235,7 +236,6 @@
     margin-bottom: 700px;
     bottom: 0%;
     width: 100%;
-
     }
 
     .wood::before {
@@ -245,7 +245,7 @@
         transform: translateX(-50%);
         top: -2.2%;
         width: 100%;
-        transform: translateX(-9%);
+        transform: translateX(-10.5%);
     }
     .wood::after {
         /* border: var(--element-borders); */
@@ -265,7 +265,6 @@
     height: 60rem;
     margin-bottom: 700px;
     width: 100%;
-
     }
 
     .marble::before {
@@ -275,7 +274,7 @@
         transform: translateX(-50%);
         top: -2.2%;
         width: 100%;
-        transform: translateX(-9%);
+        transform: translateX(-10.5%);
     }
     .marble::after {
         /* border: var(--element-borders); */
@@ -290,13 +289,30 @@
 /* ------------------------- Gallery Stuff ------------------------- */
 
 .tilegallery {
-    /* border: var(--element-borders); */
+    border: var(--element-borders);
     position: relative;
     width: 70%;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
     top: 25%;
+}
 
+.woodgallery {
+    border: var(--element-borders);
+    position: relative;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    top: 25%;
+}
+
+.marblegallery {
+    border: var(--element-borders);
+    position: relative;
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    top: 25%;
 }
 
 .track-container{

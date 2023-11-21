@@ -3,6 +3,19 @@
 
 /* ----------------------- Header Stuff ----------------------- */
 
+function copyemail() {
+var copyText = document.getElementById("copyemail");
+
+copyText.select()
+copyText.setSelectionRange(0, 99999);
+
+navigator.clipboard.writeText(copyText.value);
+
+alert("Copied Email Address");
+
+
+}
+
 /* ----------------------- Body Stuff ----------------------- */
 
 window.addEventListener('scroll', function() {

@@ -102,9 +102,12 @@
     transition-property: opacity;
     transition-duration: 0.9s;
     transition-delay: 0.3s;
+    text-decoration-line: none;
 
 
 }
+
+
     .call:hover {
         background-color: var(--accentcolor);
         color: white;
@@ -131,6 +134,11 @@
     .email:hover {
         background-color: var(--accentcolor);
         color: white;
+    }
+
+.copyemail {
+    opacity: 0;
+    
 }
 
 /* ----------------------- Body Stuff ----------------------- */

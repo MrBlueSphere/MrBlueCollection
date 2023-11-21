@@ -45,11 +45,11 @@ window.addEventListener('scroll', function() {
 
 
 // ------------------------- Gallery Stuff -------------------------
+
+// Tile
 document.addEventListener('DOMContentLoaded', function() {
 
-
-
-const track = document.querySelector('.track');
+const track = document.querySelector('.tiletrack');
 const slides = Array.from(track.children);
 const next = document.querySelector('.right');
 const prev = document.querySelector('.left');
@@ -65,13 +65,13 @@ slides.forEach(setSlidePosition);
 
 const moveToSlide = (track, currentSlide, targetSlide) => {
     track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
-    currentSlide.classList.remove('current-slide');
-    targetSlide.classList.add('current-slide');
+    currentSlide.classList.remove('current-Tslide');
+    targetSlide.classList.add('current-Tslide');
 };
 
 // move to prev slide
 prev.addEventListener('click', e => {
-    const currentSlide = track.querySelector('.current-slide');
+    const currentSlide = track.querySelector('.current-Tslide');
     const prevSlide = currentSlide.previousElementSibling;
 
     moveToSlide(track, currentSlide, prevSlide);
@@ -79,7 +79,7 @@ prev.addEventListener('click', e => {
 
 // move to next slide
 next.addEventListener('click', e => {
-    const currentSlide = track.querySelector('.current-slide');
+    const currentSlide = track.querySelector('.current-Tslide');
     const nextSlide = currentSlide.nextElementSibling;
     
     moveToSlide(track, currentSlide, nextSlide);
@@ -87,4 +87,85 @@ next.addEventListener('click', e => {
 
 
 });
- // dont delete
+
+//Wood
+document.addEventListener('DOMContentLoaded', function() {
+
+    const track = document.querySelector('.woodtrack');
+    const slides = Array.from(track.children);
+    const next = document.querySelector('.right');
+    const prev = document.querySelector('.left');
+    const dotsNav = document.querySelector('.nav-indicator');
+    const dots = Array.from('dotsNav.children');
+    const slideWidth = slides[0].getBoundingClientRect().width;
+    
+    // auto arrange slides next to each other
+    const setSlidePosition = (slide, index) => {
+        slide.style.left = slideWidth * index + 'px';
+    };
+    slides.forEach(setSlidePosition);
+    
+    const moveToSlide = (track, currentSlide, targetSlide) => {
+        track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+        currentSlide.classList.remove('current-Wslide');
+        targetSlide.classList.add('current-Wslide');
+    };
+    
+    // move to prev slide
+    prev.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.current-Wslide');
+        const prevSlide = currentSlide.previousElementSibling;
+    
+        moveToSlide(track, currentSlide, prevSlide);
+    });
+    
+    // move to next slide
+    next.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.current-Wslide');
+        const nextSlide = currentSlide.nextElementSibling;
+        
+        moveToSlide(track, currentSlide, nextSlide);
+    });
+    });
+
+//Marble
+document.addEventListener('DOMContentLoaded', function() {
+
+    const track = document.querySelector('.marbletrack');
+    const slides = Array.from(track.children);
+    const next = document.querySelector('.right');
+    const prev = document.querySelector('.left');
+    const dotsNav = document.querySelector('.nav-indicator');
+    const dots = Array.from('dotsNav.children');
+    const slideWidth = slides[0].getBoundingClientRect().width;
+    
+    // auto arrange slides next to each other
+    const setSlidePosition = (slide, index) => {
+        slide.style.left = slideWidth * index + 'px';
+    };
+    slides.forEach(setSlidePosition);
+    
+    const moveToSlide = (track, currentSlide, targetSlide) => {
+        track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+        currentSlide.classList.remove('current-Mslide');
+        targetSlide.classList.add('current-Mslide');
+    };
+    
+    // move to prev slide
+    prev.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.current-Mslide');
+        const prevSlide = currentSlide.previousElementSibling;
+    
+        moveToSlide(track, currentSlide, prevSlide);
+    });
+    
+    // move to next slide
+    next.addEventListener('click', e => {
+        const currentSlide = track.querySelector('.current-Mslide');
+        const nextSlide = currentSlide.nextElementSibling;
+        
+        moveToSlide(track, currentSlide, nextSlide);
+    });
+    
+    
+    });

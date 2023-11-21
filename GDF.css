@@ -136,10 +136,9 @@
         color: white;
     }
 
-.copyemail {
-    opacity: 0;
-    
-}
+        .copyemail {
+            opacity: 0;
+        }
 
 /* ----------------------- Body Stuff ----------------------- */
 
@@ -205,7 +204,7 @@
 }
 
 .tiles {
-        border: var(--element-borders);
+        /* border: var(--element-borders); */
         background-image: url(Assets/Misc/Tilesbg.png);
         height: 60rem;
         margin-bottom: 700px;
@@ -297,7 +296,7 @@
 /* ------------------------- Gallery Stuff ------------------------- */
 
 .tilegallery {
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     position: relative;
     width: 70%;
     height: 400px;
@@ -306,7 +305,7 @@
 }
 
 .woodgallery {
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     position: relative;
     width: 70%;
     height: 400px;
@@ -315,7 +314,7 @@
 }
 
 .marblegallery {
-    border: var(--element-borders);
+    /* border: var(--element-borders); */
     position: relative;
     width: 70%;
     height: 400px;
@@ -330,14 +329,42 @@
     overflow: hidden;
 }
 
-.track {
+.tiletrack {
     list-style: none;
     position: relative;
     height: 100%;
     transition: transform 250ms ease-in;
 }
 
-.slide {
+.woodtrack {
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.marbletrack {
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.Tslide {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+}
+
+.Wslide {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+}
+
+.Mslide {
     position: absolute;
     top: 0%;
     bottom: 0%;

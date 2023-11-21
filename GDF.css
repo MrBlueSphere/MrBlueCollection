@@ -204,39 +204,31 @@
 }
 
 .tiles {
-        /* border: var(--element-borders); */
-        background-image: url(Assets/Misc/Tilesbg.png);
+        border: var(--element-borders);
         height: 60rem;
         margin-bottom: 700px;
         margin-top: 200px;
-        position: relative;
-        width: 100%;
-    
+    }
+
+    .tilebg {
+    background-image: url(Assets/Misc/Tilesbg.png);
+        
     }
 
     .tiles::before {
         /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometricShadow.svg);
-        position: absolute;
-        transform: translateX(-50%);
-        top: -2.2%;
-        width: 100%;
-        transform: translateX(-10.5%);
+        content: url(Assets/Misc/BeforeGeometric.svg);
+
     
     }
     .tiles::after {
         /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
-        position: absolute;
-        bottom: -0.6%;
-        transform: translateX(-50%);
-        width: 100%;
-        transform: translateX(-9%);
+        object-fit: cover;
     }
 
 .wood {
-    /* border: var(--element-borders); */
-    background-image: url(Assets/Misc/Woodbg.png);
+    border: var(--element-borders);
     object-fit: cover;
     position: relative;
     height: 60rem;
@@ -245,28 +237,22 @@
     width: 100%;
     }
 
+    .woodbg {
+    background-image: url(Assets/Misc/Woodbg.png);
+    }
+
     .wood::before {
         /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometricShadow.svg);
-        position: absolute;
-        transform: translateX(-50%);
-        top: -2.2%;
-        width: 100%;
-        transform: translateX(-10.5%);
+        content: url(Assets/Misc/BeforeGeometric.svg);
     }
     .wood::after {
         /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
-        position: absolute;
-        transform: translateX(-50%);
-        bottom: -0.6%;
-        width: 100%;
-        transform: translateX(-9%);
+        object-fit: cover;
     }
 
 .marble {
-    /* border: var(--element-borders); */
-    background-image: url(Assets/Misc/Marblebg.png);
+    border: var(--element-borders);
     position: relative;
     object-fit: cover;
     height: 60rem;
@@ -274,23 +260,19 @@
     width: 100%;
     }
 
+    .marblebg {
+    background-image: url(Assets/Misc/Marblebg.png);
+
+    }
+
     .marble::before {
         /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometricShadow.svg);
-        position: absolute;
-        transform: translateX(-50%);
-        top: -2.2%;
-        width: 100%;
-        transform: translateX(-10.5%);
+        content: url(Assets/Misc/BeforeGeometric.svg);
     }
     .marble::after {
         /* border: var(--element-borders); */
         content: url(Assets/Misc/AfterGeometric.svg);
-        position: absolute;
-        bottom: -0.6%;
-        width: 100%;
-        transform: translateX(-9%);
-
+        object-fit: cover;
     }
 
 /* ------------------------- Gallery Stuff ------------------------- */
@@ -323,13 +305,13 @@
 }
 
 .track-container{
-    /* border: var(--element-borders); */
     position: relative;
     height: 100%;
     overflow: hidden;
 }
 
 .tiletrack {
+    /* border: var(--element-borders); */
     list-style: none;
     position: relative;
     height: 100%;
@@ -337,6 +319,7 @@
 }
 
 .woodtrack {
+    /* border: var(--element-borders); */
     list-style: none;
     position: relative;
     height: 100%;
@@ -344,6 +327,7 @@
 }
 
 .marbletrack {
+    /* border: var(--element-borders); */
     list-style: none;
     position: relative;
     height: 100%;
@@ -372,17 +356,16 @@
 }
 
 .pix {
-    border-radius: 25px;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+
 }
 
 .arrows {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /* z-index: 2; */
     background: transparent;
     cursor: pointer;
     border: transparent;
@@ -391,11 +374,27 @@
 .arrows img {
     width: 15px;
 }
-.left {
+.Tleft {
     left: 5px;
 }
 
-.right {
+.Tright {
+    right: 5px;
+}
+
+.Wleft {
+    left: 5px;
+}
+
+.Wright {
+    right: 5px;
+}
+
+.Mleft {
+    left: 5px;
+}
+
+.Mright {
     right: 5px;
 }
 

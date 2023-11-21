@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const track = document.querySelector('.tiletrack');
 const slides = Array.from(track.children);
-const next = document.querySelector('.right');
-const prev = document.querySelector('.left');
+const next = document.querySelector('.Tright');
+const prev = document.querySelector('.Tleft');
 const dotsNav = document.querySelector('.nav-indicator');
 const dots = Array.from('dotsNav.children');
 const slideWidth = slides[0].getBoundingClientRect().width;
@@ -93,8 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const track = document.querySelector('.woodtrack');
     const slides = Array.from(track.children);
-    const next = document.querySelector('.right');
-    const prev = document.querySelector('.left');
+    const next = document.querySelector('.Wright');
+    const prev = document.querySelector('.Wleft');
     const dotsNav = document.querySelector('.nav-indicator');
     const dots = Array.from('dotsNav.children');
     const slideWidth = slides[0].getBoundingClientRect().width;
@@ -133,8 +133,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const track = document.querySelector('.marbletrack');
     const slides = Array.from(track.children);
-    const next = document.querySelector('.right');
-    const prev = document.querySelector('.left');
+    const next = document.querySelector('.Mright');
+    const prev = document.querySelector('.Mleft');
     const dotsNav = document.querySelector('.nav-indicator');
     const dots = Array.from('dotsNav.children');
     const slideWidth = slides[0].getBoundingClientRect().width;

@@ -204,83 +204,54 @@
 }
 
 .tiles {
-        border: var(--element-borders);
+        /* border: var(--element-borders); */
         height: 60rem;
         margin-bottom: 700px;
         margin-top: 200px;
     }
 
     .tilebg {
-    background-image: url(Assets/Misc/Tilesbg.png);
-        
-    }
+    background: url(Assets/Misc/BeforeGeometric.svg) left top, url(Assets/Misc/AfterGeometric.svg) left bottom, url(Assets/Misc/Tilesbg.png);
+    background-repeat: no-repeat;
+    background-size: contain, contain, 100%;
+    opacity: .9;
+    /* border: var(--element-borders); */
 
-    .tiles::before {
-        /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometric.svg);
-
-    
-    }
-    .tiles::after {
-        /* border: var(--element-borders); */
-        content: url(Assets/Misc/AfterGeometric.svg);
-        object-fit: cover;
     }
 
 .wood {
-    border: var(--element-borders);
-    object-fit: cover;
-    position: relative;
+    /* border: var(--element-borders); */
     height: 60rem;
     margin-bottom: 700px;
-    bottom: 0%;
-    width: 100%;
     }
 
     .woodbg {
-    background-image: url(Assets/Misc/Woodbg.png);
-    }
+        background: url(Assets/Misc/BeforeGeometric.svg) left top, url(Assets/Misc/AfterGeometric.svg) left bottom, url(Assets/Misc/Woodbg.png);
+        background-repeat: no-repeat;
+        background-size: contain, contain, cover;
 
-    .wood::before {
-        /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometric.svg);
-    }
-    .wood::after {
-        /* border: var(--element-borders); */
-        content: url(Assets/Misc/AfterGeometric.svg);
-        object-fit: cover;
     }
 
 .marble {
-    border: var(--element-borders);
-    position: relative;
-    object-fit: cover;
+    /* border: var(--element-borders); */
     height: 60rem;
     margin-bottom: 700px;
-    width: 100%;
     }
 
     .marblebg {
-    background-image: url(Assets/Misc/Marblebg.png);
+        background: url(Assets/Misc/BeforeGeometric.svg) left top, url(Assets/Misc/AfterGeometric.svg) left bottom, url(Assets/Misc/Marblebg.png) top left;
+        background-repeat: no-repeat;
+        background-size: contain, contain, 100%;
 
     }
 
-    .marble::before {
-        /* border: var(--element-borders); */
-        content: url(Assets/Misc/BeforeGeometric.svg);
-    }
-    .marble::after {
-        /* border: var(--element-borders); */
-        content: url(Assets/Misc/AfterGeometric.svg);
-        object-fit: cover;
-    }
 
 /* ------------------------- Gallery Stuff ------------------------- */
 
 .tilegallery {
     /* border: var(--element-borders); */
     position: relative;
-    width: 70%;
+    width: 60%;
     height: 400px;
     margin: 0 auto;
     top: 25%;
@@ -289,7 +260,7 @@
 .woodgallery {
     /* border: var(--element-borders); */
     position: relative;
-    width: 70%;
+    width: 60%;
     height: 400px;
     margin: 0 auto;
     top: 25%;
@@ -298,20 +269,20 @@
 .marblegallery {
     /* border: var(--element-borders); */
     position: relative;
-    width: 70%;
+    width: 60%;
     height: 400px;
     margin: 0 auto;
     top: 25%;
 }
 
 .track-container{
+    /* border: var(--element-borders); */
     position: relative;
     height: 100%;
     overflow: hidden;
 }
 
 .tiletrack {
-    /* border: var(--element-borders); */
     list-style: none;
     position: relative;
     height: 100%;
@@ -356,10 +327,11 @@
 }
 
 .pix {
-    width: 100%;
     height: 100%;
     object-fit: contain;
-
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
 }
 
 .arrows {
@@ -372,30 +344,30 @@
 }
 
 .arrows img {
-    width: 15px;
+    width: 20px;
 }
 .Tleft {
-    left: 5px;
+    left: -30px;
 }
 
 .Tright {
-    right: 5px;
+    right: -30px;
 }
 
 .Wleft {
-    left: 5px;
+    left: -30px;
 }
 
 .Wright {
-    right: 5px;
+    right: -30px;
 }
 
 .Mleft {
-    left: 5px;
+    left: -30px;
 }
 
 .Mright {
-    right: 5px;
+    right: -30px;
 }
 
 .nav-indicator {

@@ -46,46 +46,44 @@ window.addEventListener('scroll', function() {
 
 // ------------------------- Gallery Stuff -------------------------
 
-// Tile
+// Tile Gallery
 document.addEventListener('DOMContentLoaded', function() {
+    const track = document.querySelector('.tiletrack');
+    const slides = Array.from(track.children);
+    const next = document.querySelector('.Tright');
+    const prev = document.querySelector('.Tleft');
+    const dotsNav = document.querySelector('.nav-indicator');
+    const dots = Array.from('dotsNav.children');
+    const slideWidth = slides[0].getBoundingClientRect().width;
 
-const track = document.querySelector('.tiletrack');
-const slides = Array.from(track.children);
-const next = document.querySelector('.Tright');
-const prev = document.querySelector('.Tleft');
-const dotsNav = document.querySelector('.nav-indicator');
-const dots = Array.from('dotsNav.children');
-const slideWidth = slides[0].getBoundingClientRect().width;
-
-// auto arrange slides next to each other
+// funtion to auto arrange slides next to each other
 const setSlidePosition = (slide, index) => {
-    slide.style.left = slideWidth * index + 'px';
-};
-slides.forEach(setSlidePosition);
+    slide.style.left = slideWidth * index + 'px';};
+        slides.forEach(setSlidePosition);
 
+//function to move(to next or prev slide)
 const moveToSlide = (track, currentSlide, targetSlide) => {
-    track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+    track.style.transform = 'translateX(-' + targetSlide.style.left + ')';""
+    //remove label "current-Tslide" from currently showing img to the next or prev img
     currentSlide.classList.remove('current-Tslide');
     targetSlide.classList.add('current-Tslide');
 };
 
-// move to prev slide
+// function to move to prev slide
 prev.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-Tslide');
     const prevSlide = currentSlide.previousElementSibling;
 
-    moveToSlide(track, currentSlide, prevSlide);
+        moveToSlide(track, currentSlide, prevSlide);
 });
 
-// move to next slide
+// function to move to next slide
 next.addEventListener('click', e => {
     const currentSlide = track.querySelector('.current-Tslide');
     const nextSlide = currentSlide.nextElementSibling;
-    
-    moveToSlide(track, currentSlide, nextSlide);
+    const amountToMove = nextSlide.style.left;
+        moveToSlide(track, currentSlide, nextSlide);
 });
-
-
 });
 
 //Wood

@@ -283,6 +283,7 @@
 }
 
 .tiletrack {
+    /* border: var(--element-borders); */
     list-style: none;
     position: relative;
     height: 100%;
@@ -333,6 +334,7 @@
     transform: translateX(-50%);
     left: 50%;
     border-radius: 3%;
+    /* border: var(--element-borders); */
 }
 
 .arrows {

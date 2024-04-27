@@ -6,7 +6,7 @@
 
 HTML is already responsive, so if something isn't responding to the size of the screen/tab its because you put a restriction on it. For instance if you set the hight of something its not allowed to do any different even if what it wants to do is responsive. 
     Tips:
-         • Use % sizes like hight: 80%
+         • Use % sizes like Hight: 80%;
          • 
          • 
 

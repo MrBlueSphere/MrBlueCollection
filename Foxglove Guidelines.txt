@@ -7,14 +7,21 @@
 HTML is already responsive, so if something isn't responding to the size of the screen/tab its because you put a restriction on it. For instance if you set the hight of something its not allowed to do any different even if what it wants to do is responsive. 
     Tips:
          • Use % sizes like Hight: 80%;
-         • 
-         • 
+         • Use em measurements to scale padding and rems for margins
+         • Use vh, vw, vmin and vmax for Titles
+         •
 
-When the z-index property is not specified on any element, elements are stacked in the following order (from bottom to top):
-The background and borders of the root element.
-Descendant non-positioned elements, in order of appearance in the HTML.
-Descendant positioned elements, in order of appearance in the HTML.
+~ When the z-index property is not specified on any element, elements are stacked in the following order (from back to front):
+    ▪The background and borders of the root element.
+    ▪Descendant non-positioned(static) elements, in order of appearance in the HTML.
+    ▪Floating elements
+    ▪Descendant positioned(all other positions) elements, in order of appearance in the HTML.
 
+~ Use z-index Carefully: 
+    
+    When stacking elements with position: absolute; or position: relative;, be mindful of the z-index 
+    property to control the stacking order. AVOID excessive use of high z-index values, as it can lead 
+    to stacking confusion.
 
 ~ Choose Positioning Methods Wisely:
 
@@ -59,12 +66,6 @@ Descendant positioned elements, in order of appearance in the HTML.
     Apply margins to create space *around* elements.
     Use padding to create space *within* elements.
     AVOID using negative margins excessively, as they can lead to unexpected layout issues.
-
-~ Use z-index Carefully: 
-    
-    When stacking elements with position: absolute; or position: relative;, be mindful of the z-index 
-    property to control the stacking order. AVOID excessive use of high z-index values, as it can lead 
-    to stacking confusion.
 
 ~ Maintain a Consistent Naming Convention: 
     
